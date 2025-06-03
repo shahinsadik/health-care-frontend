@@ -23,10 +23,17 @@ export const theme = createTheme({
         },
       },
     },
-    MuiContainer:{
+
+    MuiContainer: {
       defaultProps: {
         maxWidth: "lg", // Default maxWidth for all containers
       },
-    }
+    },
+  },
+  typography: {
+    body1: {
+      color: "#041134CC",
+    },
   },
 });
+theme.shadows[1] = "0px 5px 22px lightgray"; // Example of overriding a shadow
