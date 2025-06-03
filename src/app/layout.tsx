@@ -23,4 +23,5 @@ export default function RootLayout({
     </html>
   );
   //layout
+  //layout.tsx
 }
