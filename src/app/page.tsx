@@ -5,7 +5,7 @@ function HomePage() {
   return (
   <div>
     <p>Home Page</p>
-    <Button variant="outlined">Outlined</Button>
+    <Button >Outlined</Button>
     </div>
 );
 }
