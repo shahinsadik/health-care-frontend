@@ -1,13 +1,11 @@
-import { Button } from "@mui/material";
-import React from "react";
+import HeroSection from "@/components/UI/HomePage/HeroSection/HeroSection";
 
 function HomePage() {
   return (
-  <div>
-    <p>Home Page</p>
-    <Button >Outlined</Button>
-    </div>
-);
+    <>
+      <HeroSection />
+    </>
+  );
 }
 
 export default HomePage;
