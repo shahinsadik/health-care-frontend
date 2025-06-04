@@ -1,39 +1,38 @@
-import { createTheme } from "@mui/material/styles";
-import { green, purple } from "@mui/material/colors";
+import { createTheme } from '@mui/material/styles';
 
 export const theme = createTheme({
-  palette: {
-    primary: {
-      main: purple[500],
-      //   main: "#1586FD", // Example of a custom color
-    },
-    secondary: {
-      main: green[500],
-      //   main: "#666f73",
-    },
-  },
-  components: {
-    MuiButton: {
-      defaultProps: {
-        variant: "contained", // Default variant for all buttons
+   palette: {
+      primary: {
+         main: '#1586FD',
       },
-      styleOverrides: {
-        root: {
-          padding: "8px 24px", // Set default padding
-        },
+      secondary: {
+         main: '#666f73',
+         light: '#f8f8f8',
       },
-    },
+   },
 
-    MuiContainer: {
-      defaultProps: {
-        maxWidth: "lg", // Default maxWidth for all containers
+   components: {
+      MuiButton: {
+         defaultProps: {
+            variant: 'contained',
+         },
+         styleOverrides: {
+            root: {
+               padding: '8px 24px',
+            },
+         },
       },
-    },
-  },
-  typography: {
-    body1: {
-      color: "#041134CC",
-    },
-  },
+      MuiContainer: {
+         defaultProps: {
+            maxWidth: 'lg',
+         },
+      },
+   },
+   typography: {
+      body1: {
+         color: '#0B1134CC',
+      },
+   },
 });
-theme.shadows[1] = "0px 5px 22px lightgray"; // Example of overriding a shadow
+
+theme.shadows[1] = '0px 5px 22px lightgray';
