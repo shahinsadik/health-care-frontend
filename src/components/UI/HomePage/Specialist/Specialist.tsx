@@ -10,11 +10,13 @@ const Specialist = () => {
             Explore Treatment Across Specialties
           </Typography>
           <Typography color="primary.secondary" component="p" fontWeight={300} fontSize={18}>
+            
             Experience Doctor Across All Specialties
           </Typography>
         </Box>
       </Box>
     </Container>
+    //ui
   );
 };
 
