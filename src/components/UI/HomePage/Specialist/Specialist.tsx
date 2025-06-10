@@ -17,6 +17,9 @@ const Specialist = () => {
       </Box>
     </Container>
     //ui
+    //ux
+    //design
+    //healthcare
   );
 };
 
