@@ -20,6 +20,8 @@ const Specialist = () => {
     //ux
     //design
     //healthcare
+    //healthcare
+    //healthcare
   );
 };
 
