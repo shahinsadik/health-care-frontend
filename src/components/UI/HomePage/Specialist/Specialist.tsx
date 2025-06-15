@@ -1,7 +1,13 @@
 import { Box, Container, Typography } from "@mui/material";
 import React from "react";
 
-const Specialist = () => {
+const Specialist = async () => {
+  const res = await fetch("http://localhost:3000/api/v1/specialties",{
+    next: {revalidate:30}
+  })
+  const specialties = await res.json();
+  console.log(specialties);
+  
   return (
     <Container sx={{ margin: "40px 0px", textAlign: "center" }}>
       <Box>
@@ -16,12 +22,7 @@ const Specialist = () => {
         </Box>
       </Box>
     </Container>
-    //ui
-    //ux
-    //design
-    //healthcare
-    //healthcare
-    //healthcare
+   
   );
 };
 
